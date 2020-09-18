@@ -22,34 +22,18 @@ let randAction = Math.floor(Math.random() * action.length )
 let randWhat = Math.floor(Math.random() * what.length ) 
 let randWhen = Math.floor(Math.random() * when.length ) 
 
-let excuseScore= Math.floor(Math.random() *100)
+
 
 let randNewColor = Math.floor(Math.random() * newColor.length)
 
 
-document.querySelector('.class').innerHTML = who[randWho] + ' ' + action[randAction]+ ' ' + what[randWhat] + ' ' + when[randWhen]
-
-document.querySelector('.class2').innerHTML = `${who[randWho]} e mucho louco`
+document.querySelector('.class').innerHTML =' " ' + who[randWho] + ' ' + action[randAction]+ ' ' + what[randWhat] + ' ' + when[randWhen] + '" '
 
 
-document.querySelector('#test').innerHTML ='Excuse score:' +  excuseScore
 
-function trocaCor() {  
-  
-  document.querySelector('#bode').style.background = newColor[randNewColor]; 
 
-}
 
-function tiraCor() {  
-  document.querySelector('#bode').style.background = ''; 
 
-}
-
-function trocaCor2() {  
-  
-  document.querySelector('#bode').style.background = newColor[randNewColor]; 
-
-}
 
 
 
